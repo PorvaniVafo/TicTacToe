@@ -8,6 +8,7 @@ namespace TicTacToe
         {
             Game game = new Game();
             game.DrawBoard();
+            game.Start();
             }
 
     }

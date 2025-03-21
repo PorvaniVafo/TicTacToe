@@ -68,20 +68,26 @@ namespace TicTacToe
             }
         }
 
-public void DrawBoard()
+
+private void DrawBoard()
 {
-    Console.Clear();
+    Console.WriteLine("  0   1   2 ");
     for (int i = 0; i < 3; i++)
     {
+        Console.Write(i + " ");
         for (int j = 0; j < 3; j++)
         {
-            Console.Write(board[i, j]);
+            Console.ForegroundColor = (board[i, j] == 'X') ? ConsoleColor.Cyan : ConsoleColor.Red;
+            Console.Write(board[i, j] == ' ' ? " " : board[i, j].ToString());
+            Console.ResetColor();
+
             if (j < 2) Console.Write(" | ");
         }
         Console.WriteLine();
-        if (i < 2) Console.WriteLine("---------");
+        if (i < 2) Console.WriteLine(" ---+---+---");
     }
 }
+
 private bool CheckWinner()
 {
     for (int i = 0; i < 3; i++)
