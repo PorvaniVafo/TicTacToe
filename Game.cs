@@ -20,16 +20,54 @@ namespace TicTacToe
         }
     }
 }
-namespace TicTacToe
-{
-    class Program
-    {
-        static void Main(string[] args)
+ public void Start()
         {
-            Game game = new Game();
+            while (true)
+            {
+                Console.Clear();
+                DrawBoard();
+                Console.WriteLine($"Player {currentPlayer}, it's your turn!");
+
+                int row, col;
+                while (true)
+                {
+                    Console.Write("Enter row (0-2): ");
+                    bool rowParsed = int.TryParse(Console.ReadLine(), out row);
+                    Console.Write("Enter column (0-2): ");
+                    bool colParsed = int.TryParse(Console.ReadLine(), out col);
+
+                    if (rowParsed && colParsed && IsValidMove(row, col))
+                        break;
+
+                    Console.WriteLine("Invalid input! Try again.");
+                }
+
+                board[row, col] = currentPlayer;
+
+                if (CheckWinner())
+                {
+                    Console.Clear();
+                    DrawBoard();
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine($"Player {currentPlayer} wins!");
+                    Console.ResetColor();
+                    break;
+                }
+
+                if (IsBoardFull())
+                {
+                    Console.Clear();
+                    DrawBoard();
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine("It's a draw!");
+                    Console.ResetColor();
+                    break;
+                }
+
+                currentPlayer = (currentPlayer == 'X') ? 'O' : 'X';
+            }
         }
-    }
-}
+
 public void DrawBoard()
 {
     Console.Clear();
