@@ -1,0 +1,14 @@
+/Users/vafo/Desktop/TicTacToe/bin/Debug/net9.0/TicTacToe
+/Users/vafo/Desktop/TicTacToe/bin/Debug/net9.0/TicTacToe.deps.json
+/Users/vafo/Desktop/TicTacToe/bin/Debug/net9.0/TicTacToe.runtimeconfig.json
+/Users/vafo/Desktop/TicTacToe/bin/Debug/net9.0/TicTacToe.dll
+/Users/vafo/Desktop/TicTacToe/bin/Debug/net9.0/TicTacToe.pdb
+/Users/vafo/Desktop/TicTacToe/obj/Debug/net9.0/TicTacToe.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vafo/Desktop/TicTacToe/obj/Debug/net9.0/TicTacToe.AssemblyInfoInputs.cache
+/Users/vafo/Desktop/TicTacToe/obj/Debug/net9.0/TicTacToe.AssemblyInfo.cs
+/Users/vafo/Desktop/TicTacToe/obj/Debug/net9.0/TicTacToe.csproj.CoreCompileInputs.cache
+/Users/vafo/Desktop/TicTacToe/obj/Debug/net9.0/TicTacToe.dll
+/Users/vafo/Desktop/TicTacToe/obj/Debug/net9.0/refint/TicTacToe.dll
+/Users/vafo/Desktop/TicTacToe/obj/Debug/net9.0/TicTacToe.pdb
+/Users/vafo/Desktop/TicTacToe/obj/Debug/net9.0/TicTacToe.genruntimeconfig.cache
+/Users/vafo/Desktop/TicTacToe/obj/Debug/net9.0/ref/TicTacToe.dll
