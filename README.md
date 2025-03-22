@@ -3,8 +3,8 @@
 Welcome to **TicTacToe**, the world's most exciting game (well, at least when you're bored in class). This is a simple CLI-based version of the classic game **TicTacToe**, developed in C#. 
 
 # Video Demo
-Here’s a link to a very professional video demonstration of how the game works. You know, to show the world that you’re a serious developer:
-(add link)
+Here’s a link to a very professional video demonstration of how the game works.
+https://youtu.be/NtNDzjxigZk
 
 
 Perfect for when you have 5 minutes to kill, and you want to pretend you're being productive by solving this timeless puzzle, while also secretly avoiding work.
